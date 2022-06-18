@@ -5,4 +5,9 @@ Projeto em Java para treinamento de envio de mensagens. O mesmo app está sendo 
 apenas para treinamento mesmo, para poder comparar a sintax das duas linguagens.
 </p>
 
+<div align="middle">
+  <h4>Enviando / Recebendo mensagens</h4> 
+  <img src="https://user-images.githubusercontent.com/29150094/174451299-c3ee7e9e-c1b4-4db6-8c73-608b74b8e1da.gif" width="360" height="650" />  
+</div>
+
 
