@@ -5,9 +5,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
+    android:gravity="center"
     android:orientation="vertical"
     tools:context=".ReceiveMessageActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/receive_message"/>
 
     <TextView
         android:id="@+id/message"

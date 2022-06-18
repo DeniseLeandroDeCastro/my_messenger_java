@@ -16,9 +16,8 @@ public class CreateMessageActivity extends AppCompatActivity {
     }
 
     public void onSendMessage(View view) {
-        EditText messageView = (EditText) findViewById(R.id.message);
+        EditText messageView = findViewById(R.id.message);
         String messageText = messageView.getText().toString();
-
         Intent intent = new Intent(this, ReceiveMessageActivity.class);
         intent.putExtra(ReceiveMessageActivity.EXTRA_MESSAGE, messageText);
         startActivity(intent);

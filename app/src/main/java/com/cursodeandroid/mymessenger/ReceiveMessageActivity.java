@@ -17,7 +17,7 @@ public class ReceiveMessageActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         String messageText = intent.getStringExtra(EXTRA_MESSAGE);
-        TextView messageView = (TextView) findViewById(R.id.message);
+        TextView messageView = findViewById(R.id.message);
         messageView.setText(messageText);
     }
 }
